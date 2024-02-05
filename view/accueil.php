@@ -13,7 +13,6 @@
 
 <body>
     <?php require_once 'view/components/navbar.html' ?>
-    <?php require_once 'assets/JS/navbar.js' ?>
 </body>
 
 </html>
