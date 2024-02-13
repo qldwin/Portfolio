@@ -9,14 +9,6 @@ if (isset($_GET['page'])) {
 
 
 
-
-
-
-
-
-
-
-
   }
 
 } else {
