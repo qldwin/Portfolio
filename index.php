@@ -7,7 +7,7 @@ if (isset($_GET['page'])) {
       require_once 'controller/accueil.php';
       break;
 
-
+      
 
   }
 

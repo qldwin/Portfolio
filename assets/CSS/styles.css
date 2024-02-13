@@ -1,20 +1,21 @@
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
+body {
+    width: auto;
+    margin: 0;
+    background-color: #24252a;
 }
 
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+.blur-container {
+    background-color: #cccccc;
+    filter: blur(12vw);
+}
+
+.div-infos {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.title-center {
+    font-family: "Cera CY Regular";
+    color: #cccccc;
 }
