@@ -13,11 +13,14 @@
 </head>
 
 <body>
-    <div class="blur-container" ></div>
+    <div class="blur-container"></div>
     <div class="div-infos">
+        <h4 class="me-infos">Je suis</h4>
         <h1 class="title-center">WEBER ALDWIN</h1>
+        <h4 class="dev-infos">Un <span id="element"></span></h4>
     </div>
-    
 </body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./assets/JS/typing.js"></script>
 
 </html>

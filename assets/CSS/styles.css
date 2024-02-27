@@ -4,17 +4,41 @@ body {
 }
 
 .blur-container {
-    background-color: #cccccc;
-    filter: blur(12vw);
+    position: absolute;
+    top: calc(50% - 35vh);
+    left: calc(50% - 20vw);
+    width: 40px;
+    height: 40px;
+    border-color: #cccccc;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 0 60px 30px #ccc, 0 0 250px 90px rgb(160, 160, 160);
 }
 
 .div-infos {
-    margin: auto;
+    margin-top: 15vw;
+    margin-left: 25vw;
     width: 50%;
     padding: 10px;
+}
+
+.me-infos {
+    font-family: "Cera CY Regular";
+    color: #cccccc;
+    font-size: 15px;
+    margin-left: 10vw;
 }
 
 .title-center {
     font-family: "Cera CY Regular";
     color: #cccccc;
+    text-align: center;
+    font-size: 90px;
+}
+
+.dev-infos {
+    font-family: "Cera CY Regular";
+    color: #cccccc;
+    font-size: 15px;
+    margin-left: 30vw;
 }
