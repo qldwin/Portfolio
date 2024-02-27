@@ -13,12 +13,26 @@
 </head>
 
 <body>
+    <?php require_once 'view/components/navbar.html'; ?>
     <div class="blur-container"></div>
-    <div class="div-infos">
-        <h4 class="me-infos">Je suis</h4>
-        <h1 class="title-center">WEBER ALDWIN</h1>
-        <h4 class="dev-infos">Un <span id="element"></span></h4>
-    </div>
+    <section id=accueil" class="section-body">
+        <div class="div-infos">
+            <h4 class="me-infos">Je suis</h4>
+            <h1 class="title-center">WEBER ALDWIN</h1>
+            <h4 class="dev-infos">Un <span id="element"></span></h4>
+        </div>
+    </section>
+
+    <section id="projets" class="section-body">
+
+    </section>
+    <section id="veille" class="section-body">
+
+    </section>
+    <section id="contact" class="section-body">
+
+    </section>
+
 </body>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="./assets/JS/typing.js"></script>
