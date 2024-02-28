@@ -13,13 +13,15 @@
 </head>
 
 <body>
-    <?php require_once 'view/components/navbar.html'; ?>
+    <header>
+        <?php require_once 'view/components/navbar.html'; ?>
+    </header>
     <div class="blur-container"></div>
     <section id=accueil" class="section-body">
         <div class="div-infos">
             <h4 class="me-infos">Je suis</h4>
             <h1 class="title-center">WEBER ALDWIN</h1>
-            <h4 class="dev-infos">Un <span id="element"></span></h4>
+            <h4 class="dev-infos"><span id="element"></span></h4>
         </div>
     </section>
 
