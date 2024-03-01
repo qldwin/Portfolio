@@ -28,7 +28,7 @@ body {
     color: #cccccc;
 }
 
-.blur-container {
+/* .blur-container {
     position: absolute;
     top: calc(50% - 35vh);
     left: calc(50% - 20vw);
@@ -38,7 +38,7 @@ body {
     border-radius: 50%;
     background-color: #ffffff;
     box-shadow: 0 0 60px 30px #ccc, 0 0 250px 90px rgb(160, 160, 160);
-}
+} */
 
 
 .div-infos {
