@@ -3,9 +3,6 @@ body {
     background-color: #24252a;
 }
 
-.navbar {
-}
-
 .list-navbar {
     list-style-type: none;
     display: flex;
@@ -23,11 +20,25 @@ body {
     margin-right: 5vw;
     display: inline;
     float: right;
+}
 
+ul li a {
+    text-decoration: none;
+    color: inherit;
     font-family: "Cera CY Regular";
     color: #cccccc;
 }
 
+ul li a:hover{
+    font-family: "Cera CY Regular";
+    color: #cccccc;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-shadow: 2px black;
+}
+
+
+/* --------HALO LUMINEUX-------- */
 /* .blur-container {
     position: absolute;
     top: calc(50% - 35vh);
@@ -39,6 +50,8 @@ body {
     background-color: #ffffff;
     box-shadow: 0 0 60px 30px #ccc, 0 0 250px 90px rgb(160, 160, 160);
 } */
+/* ----------------------------- */
+
 
 
 .div-infos {
@@ -60,6 +73,7 @@ body {
     color: #cccccc;
     text-align: center;
     font-size: 90px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .dev-infos {
