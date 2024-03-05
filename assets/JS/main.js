@@ -1,1 +1,3 @@
+@import './slider';
+@import './typing';
 

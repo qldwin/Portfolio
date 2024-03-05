@@ -1,3 +1,5 @@
+@import './projects.css';
+
 body {
     margin: 0;
     background-color: #24252a;
@@ -91,4 +93,5 @@ ul li a:hover{
 
 .section-body{
     height: 100vh;
+    scroll-behavior: smooth;
 }

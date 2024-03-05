@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/CSS/styles.css" />
     <link href="https://db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=Cera+CY+Regular"
         rel="stylesheet">
+
 </head>
 
 <body>
@@ -26,17 +27,22 @@
     </section>
 
     <section id="projets" class="section-body" href="#projets">
-        test
+        <?php require_once 'view/components/projects.html'; ?>
     </section>
     <section id="veille" class="section-body" href="#veille">
-        ttest11
+        VEILLE
     </section>
     <section id="contact" class="section-body" href="#contact">
-        test565 
+        CONTACT 
     </section>
+
+    <footer>
+
+    </footer>
 
 </body>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="./assets/JS/typing.js"></script>
+<script src="./assets/JS/slider.js"></script>
 
 </html>
