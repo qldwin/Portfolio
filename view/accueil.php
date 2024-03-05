@@ -17,7 +17,7 @@
         <?php require_once 'view/components/navbar.html'; ?>
     </header>
     <div class="blur-container"></div>
-    <section id=accueil" class="section-body">
+    <section id="accueil" class="section-body" href="#accueil">
         <div class="div-infos">
             <h4 class="me-infos">Je suis</h4>
             <h1 class="title-center">WEBER ALDWIN</h1>
@@ -25,14 +25,14 @@
         </div>
     </section>
 
-    <section id="projets" class="section-body">
-
+    <section id="projets" class="section-body" href="#projets">
+        test
     </section>
-    <section id="veille" class="section-body">
-
+    <section id="veille" class="section-body" href="#veille">
+        ttest11
     </section>
-    <section id="contact" class="section-body">
-
+    <section id="contact" class="section-body" href="#contact">
+        test565 
     </section>
 
 </body>

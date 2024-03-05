@@ -3,6 +3,11 @@ body {
     background-color: #24252a;
 }
 
+.navbar{
+    position: fixed;
+    top:0;
+}
+
 .list-navbar {
     list-style-type: none;
     display: flex;
@@ -81,4 +86,9 @@ ul li a:hover{
     color: #cccccc;
     font-size: 15px;
     margin-left: 30vw;
+}
+
+
+.section-body{
+    height: 100vh;
 }
