@@ -31,3 +31,19 @@ function ChangeSlide(sens) {
     slides[previousSlideIndex].classList.add('previous');
     slides[nextSlideIndex2].classList.add('next');
 }
+
+let timerId;
+
+function startCountdown() {
+    clearTimeout(timerId); // Réinitialisez le timer si l'utilisateur survole à nouveau la div
+
+    // Affichez les boutons
+    document.getElementById('precedent').style.opacity = 1;
+    document.getElementById('suivant').style.opacity = 1;
+
+    // Démarrez le compte à rebours de 3 secondes (3000 ms)
+    timerId = setTimeout(function() {
+        document.getElementById('precedent').style.opacity = 0;
+        document.getElementById('suivant').style.opacity = 0;
+    }, 3000); // 3000 ms = 3 secondes
+}

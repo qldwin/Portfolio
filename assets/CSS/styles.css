@@ -3,11 +3,15 @@
 body {
     margin: 0;
     background-color: #24252a;
+    overflow: hidden;
 }
 
 .navbar{
     position: fixed;
-    top:0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 
 .list-navbar {
@@ -62,7 +66,7 @@ ul li a:hover{
 
 
 .div-infos {
-    margin-top: 7vw;
+    margin-top: 15vw;
     margin-left: 25vw;
     width: 50%;
     padding: 10px;
@@ -92,6 +96,8 @@ ul li a:hover{
 
 
 .section-body{
-    height: 100vh;
+    min-height: 100vh;
     scroll-behavior: smooth;
+    margin-top: -70px;
+    padding-top: 70px;
 }

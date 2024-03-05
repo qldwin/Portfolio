@@ -44,5 +44,8 @@
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script src="./assets/JS/typing.js"></script>
 <script src="./assets/JS/slider.js"></script>
+<script src="./assets/JS/scroll.js"></script>
+<script src="./assets/JS/main.js"></script>
+
 
 </html>
