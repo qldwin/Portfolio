@@ -1,2 +1,2 @@
 <?php
-    require_once 'view/accueil.php';
+    require 'view/accueil.php';
