@@ -92,8 +92,11 @@ ul li a:hover {
 }
 
 .section-body {
+    /* overflow-y: scroll; */
+    /* scroll-snap-type: y mandatory; */
     min-height: 100vh;
     scroll-behavior: smooth;
     margin-top: -70px;
     padding-top: 70px;
+    /* scroll-snap-align: center; */
 }
