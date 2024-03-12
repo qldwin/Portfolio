@@ -1,12 +1,12 @@
-@import './projects.css';
+@import "./projects.css";
+@import "./header_languages_bubbles.css";
 
 body {
     margin: 0;
     background-color: #24252a;
-    overflow: hidden;
 }
 
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -40,14 +40,13 @@ ul li a {
     color: #cccccc;
 }
 
-ul li a:hover{
+ul li a:hover {
     font-family: "Cera CY Regular";
     color: #cccccc;
     text-decoration: overline;
     text-decoration: underline;
     text-shadow: 2px black;
 }
-
 
 /* --------HALO LUMINEUX-------- */
 /* .blur-container {
@@ -63,10 +62,8 @@ ul li a:hover{
 } */
 /* ----------------------------- */
 
-
-
 .div-infos {
-    margin-top: 15vw;
+    margin-bottom: 100vh;
     margin-left: 25vw;
     width: 50%;
     padding: 10px;
@@ -94,8 +91,7 @@ ul li a:hover{
     margin-left: 30vw;
 }
 
-
-.section-body{
+.section-body {
     min-height: 100vh;
     scroll-behavior: smooth;
     margin-top: -70px;

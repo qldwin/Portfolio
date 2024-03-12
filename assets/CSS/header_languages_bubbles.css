@@ -1,0 +1,347 @@
+@media (max-width: 1500px) {
+    .Box_Photo .Box_CSHARP {
+        display: none;
+    }
+
+    .Box_Photo .Box_CSS {
+        display: none;
+    }
+
+    .Box_Photo .Box_HTML {
+        display: none;
+    }
+
+    .Box_Photo .Box_JAVA {
+        display: none;
+    }
+
+    .Box_Photo .Box_JS {
+        display: none;
+    }
+
+    .Box_Photo .Box_Python {
+        display: none;
+    }
+
+    .Box_Photo .Box_SQLServer {
+        display: none;
+    }
+}
+
+.Box_Python {
+    animation: MoveUpDown1 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown1 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-top: 30vh;
+    margin-left: 50vw;
+    display: flex;
+    width: 74px;
+    padding: 6px 3px 0px 4px;
+    justify-content: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_Python {
+    width: 67px;
+    height: 73px;
+    flex-shrink: 0;
+}
+
+.Box_JS {
+    animation: MoveUpDown2 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown2 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-top: -12vw;
+    margin-left: 12vw;
+    display: flex;
+    width: 74px;
+    padding: 10px 3px 0px 4px;
+    justify-content: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_JS {
+    padding-bottom: 5px;
+    width: 50px;
+    height: 60px;
+}
+
+.Box_CSS {
+    animation: MoveUpDown3 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown3 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-left: 7vw;
+    margin-top: -9vw;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 20px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_CSS {
+    padding-bottom: 5px;
+    width: 55px;
+    height: 60px;
+}
+
+.Box_HTML {
+    animation: MoveUpDown4 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown4 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-left: 11vw;
+    margin-top: -9vw;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 20px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_HTML {
+    padding-bottom: 5px;
+    width: 55px;
+    height: 60px;
+}
+
+.Box_JAVA {
+    animation: MoveUpDown5 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown5 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-left: 19vw;
+    margin-top: -6vw;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_JAVA {
+    padding-bottom: 5px;
+    width: 55px;
+    height: 60px;
+}
+
+.Box_CSHARP {
+    animation: MoveUpDown6 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown6 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-left: 30vw;
+    margin-top: 6vw;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 16px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_CSHARP {
+    padding-bottom: 5px;
+    width: 55px;
+    height: 60px;
+}
+
+.Box_SQLServer {
+    animation: MoveUpDown7 10s easeInOut infinite;
+    -webkit-animation: MoveUpDown7 10s ease-In-Out infinite;
+    transform-origin: 50% 50%;
+
+    margin-left: 29vw;
+    margin-top: 6vw;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 16px 15px 10px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: rgba(244, 238, 251, 0.49);
+    box-shadow: 0px 60.933px 36.5598px 0px rgba(0, 59, 108, 0.06);
+}
+
+.logo_SQLServer {
+    padding-bottom: 5px;
+    width: 55px;
+    height: 60px;
+}
+
+@keyframes MoveUpDown1 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(-50px) translateX(20px) rotate(5deg);
+    }
+
+    50% {
+        transform: translateY(25px) translateX(-25px) rotate(-5deg);
+    }
+
+    75% {
+        transform: translateY(-50px) translateX(25px) rotate(-5deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown2 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(-2px) translateX(24px) rotate(7deg);
+    }
+
+    50% {
+        transform: translateY(25px) translateX(-25px) rotate(9deg);
+    }
+
+    75% {
+        transform: translateY(-39px) translateX(-24px) rotate(3deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown3 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(29px) translateX(-39px) rotate(-8deg);
+    }
+
+    50% {
+        transform: translateY(-16px) translateX(0px) rotate(2deg);
+    }
+
+    75% {
+        transform: translateY(42px) translateX(-21px) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown4 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(-8px) translateX(20px) rotate(-4deg);
+    }
+
+    50% {
+        transform: translateY(-45px) translateX(43px) rotate(-6deg);
+    }
+
+    75% {
+        transform: translateY(35px) translateX(35px) rotate(-7deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown5 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(-12px) translateX(37px) rotate(-8deg);
+    }
+
+    50% {
+        transform: translateY(50px) translateX(-47px) rotate(-3deg);
+    }
+
+    75% {
+        transform: translateY(-12px) translateX(9px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown6 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(39px) translateX(35px) rotate(5deg);
+    }
+
+    50% {
+        transform: translateY(5px) translateX(-39px) rotate(4deg);
+    }
+
+    75% {
+        transform: translateY(-45px) translateX(-27px) rotate(7deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}
+
+@keyframes MoveUpDown7 {
+    0% {
+        transform: none;
+    }
+
+    25% {
+        transform: translateY(-28px) translateX(41px) rotate(1deg);
+    }
+
+    50% {
+        transform: translateY(40px) translateX(-32px) rotate(-3deg);
+    }
+
+    75% {
+        transform: translateY(4px) translateX(5px) rotate(-2deg);
+    }
+
+    100% {
+        transform: translateY(0px) translateX(0px) rotate(0deg);
+    }
+}

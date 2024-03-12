@@ -6,10 +6,7 @@
     grid-row-gap: 32px;
     justify-items: center;
     pointer-events: none;
-
     padding: 32px;
-
-    ;
 }
 
 .projet_item {
@@ -17,9 +14,8 @@
     width: 420px;
     height: 370px;
     border-radius: 16px;
-    margin-top: 15vh
-    
-
+    margin-top: 50vh;
+    margin-left: 10vw;
 }
 
 @media (max-width: 1344px) {
@@ -43,10 +39,8 @@
 
     .projet_item {
         width: 85vw;
-
     }
 }
-
 
 .projet_item img {
     height: 100%;
@@ -54,7 +48,7 @@
     object-fit: cover;
     object-position: 50% 50%;
     position: absolute;
-    
+
     z-index: 50;
     border-radius: 16px;
 }
@@ -62,14 +56,13 @@
 .projet_information {
     z-index: 55;
     position: absolute;
-    
+
     color: white;
     background-color: rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(3px);
     height: 100%;
     width: 100%;
     border-radius: 8px;
-
 
     display: flex;
     flex-direction: column;
@@ -86,23 +79,19 @@
 
 .projet_item:hover .projet_description {
     max-height: 500px;
-    /* Hauteur maximale de la description */
     transition: max-height 1.5s ease-out;
-    /* Animation de transition (entré du hover)*/
     font-family: "Cera CY Regular";
     color: #cccccc;
 }
 
 .projet_description {
     max-height: 0;
-    /* Initialment cachée */
     overflow: hidden;
     margin: 32px;
     text-align: justify;
     transition: max-height 1.5s ease-out;
     font-family: "Cera CY Regular";
     color: #cccccc;
-    /* Animation de transition (sortie du hover)*/
 }
 
 @media (max-width: 320px) {
@@ -136,6 +125,15 @@
     padding: 10px;
 }
 
+#suivant {
+    margin-top: 40vh;
+    margin-left: 70vw;
+}
+#precedent {
+    margin-top: 50vh;
+    margin-left: 27vw;
+}
+
 .projet_item#slide {
     position: absolute;
     top: 50%;
@@ -150,18 +148,4 @@
     z-index: 2;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1.2);
-}
-
-.projet_item#slide.previous,
-.projet_item#slide.next {
-    z-index: 1;
-    filter: blur(5px);
-}
-
-.projet_item#slide.previous {
-    transform: translate(-200%, -50%);
-}
-
-.projet_item#slide.next {
-    transform: translate(100%, -50%);
 }
