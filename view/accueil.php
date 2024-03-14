@@ -16,6 +16,7 @@
 <body>
     <header>
         <?php require_once 'view/components/navbar.html'; ?>
+        <?php require_once 'view/components/social-nav.html'; ?>
     </header>
     <div class="blur-container"></div>
     <section id="accueil" class="section-body" href="#accueil">
