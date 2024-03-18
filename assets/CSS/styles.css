@@ -100,3 +100,22 @@ ul li a:hover {
     padding-top: 70px;
     /* scroll-snap-align: center; */
 }
+
+
+.social-navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+}
+
+.social-li-navbar{
+    list-style-type: none;
+}
+
+ul li a img {
+    width: 4%;
+    border-radius: 1em;
+}
+
