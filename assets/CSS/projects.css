@@ -106,7 +106,6 @@
 
 #slider {
     position: relative;
-    width: 1200px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -121,12 +120,12 @@
     position: absolute;
     font-size: 100px;
     color: rgba(220, 220, 220, 0.8);
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
     padding: 10px;
 }
 
 #suivant {
-    margin-top: 40vh;
+    margin-top: 42vh;
     margin-left: 70vw;
 }
 #precedent {

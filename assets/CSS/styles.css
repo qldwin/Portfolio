@@ -20,9 +20,9 @@ body {
 }
 
 .pic-navbar {
-    width: 4vw;
+    width: 4.5vw;
     border-radius: 1em;
-    height: 9vh;
+    height: 10vh;
     margin-right: 65vw;
 }
 
@@ -63,16 +63,15 @@ ul li a:hover {
 /* ----------------------------- */
 
 .div-infos {
-    margin-bottom: 100vh;
+    margin-top: 25vh;
     margin-left: 25vw;
-    width: 50%;
-    padding: 10px;
+    width: 50%; 
 }
 
 .me-infos {
     font-family: "Cera CY Regular";
     color: #cccccc;
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 10vw;
 }
 
@@ -87,27 +86,25 @@ ul li a:hover {
 .dev-infos {
     font-family: "Cera CY Regular";
     color: #cccccc;
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 30vw;
 }
 
 .section-body {
-    /* overflow-y: scroll; */
-    /* scroll-snap-type: y mandatory; */
     min-height: 100vh;
     scroll-behavior: smooth;
     margin-top: -70px;
     padding-top: 70px;
-    /* scroll-snap-align: center; */
+    
 }
 
 
 .social-navbar {
     position: fixed;
-    bottom: 0;
+    top: 75vh;
     left: 0;
-    height: 100%;
     z-index: 999;
+    
 }
 
 .social-li-navbar{
@@ -115,7 +112,11 @@ ul li a:hover {
 }
 
 ul li a img {
-    width: 4%;
+    width: 8%;
     border-radius: 1em;
+    margin-bottom: 2vh;
 }
 
+.desc-burg{
+    color: black;
+}
