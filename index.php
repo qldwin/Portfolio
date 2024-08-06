@@ -5,7 +5,7 @@ if (isset($_GET['page'])) {
     // index.php?page=accueil
     case 'accueil':
       require 'controller/accueil.php';
-      break; 
+      break;
 
   }
 
