@@ -35,7 +35,7 @@ function startCountdown() {
     document.getElementById("suivant").style.opacity = 1;
 
     timerId = setTimeout(function () {
-        document.getElementById("precedent").style.opacity = 0;
-        document.getElementById("suivant").style.opacity = 0;
+        document.getElementById("precedent").style.opacity = 1;
+        document.getElementById("suivant").style.opacity = 1;
     }, 5000);
 }
