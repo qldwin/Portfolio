@@ -1,5 +1,4 @@
 .Box_Contacts {
-    font-family: "Noto Serif Ubuntu";
     pointer-events: auto;
     width: 50vw;
     margin-left: auto;
@@ -9,8 +8,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    color: white;
-    margin-top: 16px;
+    padding-top: 128px;
 }
 
 .Box_Contacts h1 {
@@ -25,9 +23,7 @@
 }
 
 .Box_Contacts form {
-    font-family: "Noto Serif Ubuntu";
     width: 100%;
-    display: flex;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -40,7 +36,6 @@
 
 .Box_Contacts input,
 textarea {
-    font-family: "Noto Serif Ubuntu";
     margin-top: 32px;
     border-radius: 8px;
     color: #000;
@@ -48,14 +43,7 @@ textarea {
     background: rgba(255, 255, 255, 0.7);
 }
 
-.Box_Contacts input[type="submit"] {
-    font-family: "Noto Serif Ubuntu";
-    background-color: #000;
-    color: white;
-}
-
 .Box_Contacts textarea {
-    font-family: "Noto Serif Ubuntu";
     height: 128px;
     resize: none;
 }

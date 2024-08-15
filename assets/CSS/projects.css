@@ -5,7 +5,6 @@
     grid-template-rows: repeat(2, 1fr);
     grid-row-gap: 32px;
     justify-items: center;
-    pointer-events: none;
     padding: 32px;
 }
 
@@ -80,7 +79,7 @@
 .projet_item:hover .projet_description {
     max-height: 500px;
     transition: max-height 1.5s ease-out;
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu",serif;
     color: #cccccc;
 }
 
@@ -90,7 +89,7 @@
     margin: 32px;
     text-align: justify;
     transition: max-height 1.5s ease-out;
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu",serif;
     color: #cccccc;
 }
 
@@ -103,50 +102,3 @@
         margin: 8px;
     }
 }
-
-#slider {
-    position: relative;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    margin-right: 19vw;
-}
-
-#precedent,
-#suivant {
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-    opacity: 0;
-    position: absolute;
-    font-size: 100px;
-    color: rgba(220, 220, 220, 0.8);
-    background-color: rgba(0, 0, 0, 0);
-    padding: 10px;
-}
-
-#suivant {
-    margin-top: 42vh;
-    margin-left: 70vw;
-}
-#precedent {
-    margin-top: 50vh;
-    margin-left: 27vw;
-}
-
-.projet_item#slide {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.5;
-    display: none;
-}
-
-.projet_item#slide.active {
-    display: block;
-    z-index: 2;
-    opacity: 1;
-    transform: translate(-50%, -50%) scale(1.2);
-}
-
-
