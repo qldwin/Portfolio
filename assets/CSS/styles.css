@@ -35,12 +35,12 @@ body {
 ul li a {
     text-decoration: none;
     color: inherit;
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
 }
 
 ul li a:hover {
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
     text-decoration: overline;
     text-decoration: underline;
@@ -68,14 +68,14 @@ ul li a:hover {
 }
 
 .me-infos {
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
     font-size: 25px;
     margin-left: 10vw;
 }
 
 .title-center {
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
     text-align: center;
     font-size: 90px;
@@ -83,7 +83,7 @@ ul li a:hover {
 }
 
 .dev-infos {
-    font-family: "Cera CY Regular";
+    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
     font-size: 25px;
     margin-left: 30vw;

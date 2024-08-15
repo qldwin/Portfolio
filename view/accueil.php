@@ -8,8 +8,9 @@
     <link rel="icon" type="image/x-icon"
         href="https://images.vexels.com/media/users/3/205472/isolated/preview/62c3ddcae4b835271eb633cb80c8c797-planet-mars-illustration.png" />
     <link rel="stylesheet" href="./assets/CSS/styles.css" />
-    <link href="https://db.onlinewebfonts.com/c/a1ab9bebae84d82fbcfe930c4643de7a?family=Cera+CY+Regular"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
 
