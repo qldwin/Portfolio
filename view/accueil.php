@@ -6,11 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio ━━ Aldwin WEBER</title>
     <link rel="icon" type="image/x-icon"
-        href="https://images.vexels.com/media/users/3/205472/isolated/preview/62c3ddcae4b835271eb633cb80c8c797-planet-mars-illustration.png" />
+        href="./assets/img/favicon.ico" />
     <link rel="stylesheet" href="./assets/CSS/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+    <script defer src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script defer src="./assets/JS/typing.js"></script>
+    <script defer src="./assets/JS/scroll.js"></script>
+    <script defer src="./assets/JS/main.js"></script>
 
 </head>
 
@@ -33,16 +38,5 @@
     <section id="contact" class="section-body" href="#contact">
         <?php require_once 'view/components/bottom.html'; ?>
     </section>
-
-    <footer>
-
-    </footer>
-
 </body>
-<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-<script src="./assets/JS/typing.js"></script>
-<script src="./assets/JS/slider.js"></script>
-<script src="./assets/JS/scroll.js"></script>
-<script src="./assets/JS/main.js"></script>
-
 </html>

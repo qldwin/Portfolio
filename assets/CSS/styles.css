@@ -4,6 +4,8 @@
 body {
     margin: 0;
     background-color: #24252a;
+    font-family: "Noto Serif Ubuntu",serif;
+    color: #cccccc;
 }
 
 .navbar {
@@ -17,6 +19,7 @@ body {
 .list-navbar {
     list-style-type: none;
     display: flex;
+    
 }
 
 .pic-navbar {
@@ -34,32 +37,14 @@ body {
 
 ul li a {
     text-decoration: none;
-    color: inherit;
-    font-family: "Noto Serif Ubuntu";
     color: #cccccc;
 }
 
 ul li a:hover {
-    font-family: "Noto Serif Ubuntu";
-    color: #cccccc;
     text-decoration: overline;
     text-decoration: underline;
     text-shadow: 2px black;
 }
-
-/* --------HALO LUMINEUX-------- */
-/* .blur-container {
-    position: absolute;
-    top: calc(50% - 35vh);
-    left: calc(50% - 20vw);
-    width: 40px;
-    height: 40px;
-    border-color: #cccccc;
-    border-radius: 50%;
-    background-color: #ffffff;
-    box-shadow: 0 0 60px 30px #ccc, 0 0 250px 90px rgb(160, 160, 160);
-} */
-/* ----------------------------- */
 
 .div-infos {
     margin-top: 25vh;
@@ -68,23 +53,17 @@ ul li a:hover {
 }
 
 .me-infos {
-    font-family: "Noto Serif Ubuntu";
-    color: #cccccc;
     font-size: 25px;
     margin-left: 10vw;
 }
 
 .title-center {
-    font-family: "Noto Serif Ubuntu";
-    color: #cccccc;
     text-align: center;
     font-size: 90px;
     text-shadow: 2px 2px 2px black;
 }
 
 .dev-infos {
-    font-family: "Noto Serif Ubuntu";
-    color: #cccccc;
     font-size: 25px;
     margin-left: 30vw;
 }
@@ -116,14 +95,3 @@ ul li a img {
 .desc-burg {
     color: black;
 }
-
-/* #iframe 
-{ 
-    position: absolute; 
-    float: left; 
-    clear: both; 
-    width: 100%; 
-    height: 350%; 
-    z-index: 0;
-     
-} */
