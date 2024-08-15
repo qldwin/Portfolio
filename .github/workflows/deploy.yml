@@ -24,4 +24,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: "*, !.git, !.github"
           rm: true
-          target: "/var/www/html/tests"
+          target: "/var/www/html"
