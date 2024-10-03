@@ -1,104 +1,60 @@
-.projets {
-    pointer-events: none;
+.projets-carte-visite {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-row-gap: 32px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
     justify-items: center;
-    padding: 32px;
 }
 
-.projet_item {
-    pointer-events: auto;
-    width: 420px;
-    height: 370px;
-    border-radius: 16px;
-    margin-top: 50vh;
-    margin-left: 10vw;
-}
-
-@media (max-width: 1344px) {
-    .projets {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 928px) {
-    .projets {
-        grid-template-columns: repeat(1, 1fr);
-        width: 100vw;
-        padding: 0;
-    }
-}
-
-@media (max-width: 375px) {
-    .projets {
-        width: 100vw;
-    }
-
-    .projet_item {
-        width: 85vw;
-    }
-}
-
-.projet_item img {
-    height: 100%;
+.carte {
+    background-color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
-    position: absolute;
-
-    z-index: 50;
-    border-radius: 16px;
-}
-
-.projet_information {
-    z-index: 55;
-    position: absolute;
-
-    color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(3px);
-    height: 100%;
-    width: 100%;
-    border-radius: 8px;
-
+    max-width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
 }
 
-.projet_information div span {
-    background-color: red;
-    padding: 8px;
-    border-radius: 8px;
-    margin-right: 16px;
+.carte:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
-.projet_item:hover .projet_description {
-    max-height: 500px;
-    transition: max-height 1.5s ease-out;
-    font-family: "Noto Serif Ubuntu",serif;
+.carte-header h2 {
     color: #cccccc;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 
-.projet_description {
-    max-height: 0;
-    overflow: hidden;
-    margin: 32px;
-    text-align: justify;
-    transition: max-height 1.5s ease-out;
-    font-family: "Noto Serif Ubuntu",serif;
+.projet_languages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projet_languages span {
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+    margin-bottom: 5px;
     color: #cccccc;
+    font-size: 14px;
 }
 
-@media (max-width: 320px) {
-    .projet_item:hover .projet_languages {
-        display: none;
-    }
+.carte-body p {
+    color: #cccccc;
 
-    .projet_description {
-        margin: 8px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .projets-carte-visite {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }

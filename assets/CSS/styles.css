@@ -1,10 +1,12 @@
 @import "./projects.css";
 @import "./bottom.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "vuetify/dist/vuetify.min.css";
 
 body {
     margin: 0;
     background-color: #24252a;
-    font-family: "Noto Serif Ubuntu",serif;
+    font-family: "Poppins", serif;
     color: #cccccc;
 }
 
@@ -19,7 +21,6 @@ body {
 .list-navbar {
     list-style-type: none;
     display: flex;
-    
 }
 
 .pic-navbar {
@@ -75,23 +76,4 @@ ul li a:hover {
     padding-top: 70px;
 }
 
-.social-navbar {
-    position: fixed;
-    top: 75vh;
-    left: 0;
-    z-index: 999;
-}
 
-.social-li-navbar {
-    list-style-type: none;
-}
-
-ul li a img {
-    width: 8%;
-    border-radius: 1em;
-    margin-bottom: 2vh;
-}
-
-.desc-burg {
-    color: black;
-}

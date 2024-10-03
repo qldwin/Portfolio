@@ -1,3 +1,13 @@
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
 .Box_Contacts {
     pointer-events: auto;
     width: 50vw;
@@ -46,6 +56,24 @@ textarea {
 .Box_Contacts textarea {
     height: 128px;
     resize: none;
+}
+
+.social-navbar {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 2vh;
+    bottom: 50vh;
+}
+
+.social-li-navbar {
+    list-style-type: none;
+}
+
+ul li a img {
+    width: 8%;
+    border-radius: 1em;
+    margin-bottom: 2vh;
 }
 
 @media screen and (max-width: 1024px) {
