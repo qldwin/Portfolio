@@ -1,15 +1,15 @@
-<script setup>
-
-</script>
-
+<script setup></script>
 
 <template>
-     <section id="competences" class="section-body" href="#competences">
-        COMPETENCES
-     </section> 
+    <competences>
+        <section id="competences" class="section-body" href="#competences">COMPETENCES</section>
+    </competences>
 </template>
 
+<script>
+export default {
+    name: "Competences",
+};
+</script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
