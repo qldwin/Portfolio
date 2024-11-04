@@ -1,7 +1,5 @@
 <script setup></script>
 
-<style src="../assets/css/projects.css"></style>
-
 <template>
     <projects>
         <section id="projets" class="section-body" href="#projets">
@@ -45,4 +43,9 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style src="../assets/css/projects.css"></style>
+
+<style scoped>
+.section-body {
+}
+</style>

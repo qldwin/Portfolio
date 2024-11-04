@@ -22,4 +22,7 @@ export default {
 
 <style src="../assets/css/style.css"></style>
 
-<style scoped></style>
+<style scoped>
+.section-body {
+}
+</style>

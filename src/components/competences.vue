@@ -12,4 +12,7 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.section-body {
+}
+</style>

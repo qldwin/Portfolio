@@ -35,4 +35,7 @@ export default {
 
 <style src="../assets/css/contact.css"></style>
 
-<style scoped></style>
+<style scoped>
+.section-body {
+}
+</style>
