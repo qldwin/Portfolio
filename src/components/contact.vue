@@ -1,7 +1,6 @@
 <script setup></script>
 
 <template>
-    <contact>
         <section id="contact" class="section-body" href="#contact">
             <div class="contacts-container">
                 <div class="Box_Contacts">
@@ -24,7 +23,6 @@
                 </nav>
             </div>
         </section>
-    </contact>
 </template>
 
 <script>

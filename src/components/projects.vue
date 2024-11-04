@@ -1,7 +1,6 @@
 <script setup></script>
 
 <template>
-    <projects>
         <section id="projets" class="section-body" href="#projets">
             <div class="projets-carte-visite">
                 <div class="carte">
@@ -14,7 +13,7 @@
                     </div>
                     <div class="carte-body">
                         <span>Stage</span>
-                        <!-- <img class="img-projects" src="/assets/img/IMG-BURG.jpg" alt=""/> -->
+                        <img class="img-projects" src="/public/IMG-BURG.jpg" alt=""/>
                         <p>Logiciel pour gérer les clients et créer des devis, avec une gestion CRUD et base de données SQLServer.</p>
                     </div>
                 </div>
@@ -28,13 +27,13 @@
                         </div>
                     </div>
                     <div class="carte-body">
-                        <!-- <img class="img-projects" src="/assets/img/IMG-OneManga.png" alt="" /> -->
+                        <span>Cours</span>
+                        <img class="img-projects" src="/public/IMG-OneManga.png" alt="" /> 
                         <p>Site vitrine pour l'achat de mangas selon les catégories, développé en équipe.</p>
                     </div>
                 </div>
             </div>
         </section>
-    </projects>
 </template>
 
 <script>

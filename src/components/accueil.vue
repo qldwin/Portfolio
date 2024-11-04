@@ -1,4 +1,5 @@
 <script setup>
+//import "../assets/JS/typing.js";
 </script>
 
 <template>
