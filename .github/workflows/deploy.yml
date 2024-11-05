@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-      - feat/github-workflow
-  workflow_dispatch:
 
 jobs:
   deploy:
