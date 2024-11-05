@@ -1,7 +1,7 @@
 .contacts-container {
     display: flex;
     justify-content: space-between;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -70,11 +70,6 @@ textarea {
     list-style-type: none;
 }
 
-ul li a img {
-    width: 8%;
-    border-radius: 1em;
-    margin-bottom: 2vh;
-}
 
 @media screen and (max-width: 1024px) {
     .Box_Contacts {

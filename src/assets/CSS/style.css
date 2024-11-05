@@ -14,6 +14,7 @@ body {
     width: 100%;
     z-index: 999;
     line-height: 4;
+    display: flex;
 }
 
 .list-navbar {
@@ -23,8 +24,12 @@ body {
 
 .pic-navbar {
     width: 7%;
-    height: auto;
     clip-path: ellipse(50% 40%);
+}
+
+.pic-navbar-list {
+    list-style-type: none;
+    
 }
 
 .content-navbar {
