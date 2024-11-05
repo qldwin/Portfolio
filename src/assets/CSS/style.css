@@ -13,6 +13,7 @@ body {
     left: 0;
     width: 100%;
     z-index: 999;
+    line-height: 4;
 }
 
 .list-navbar {
@@ -21,9 +22,9 @@ body {
 }
 
 .pic-navbar {
-    width: 5%;
-    border-radius: 1em;
-    margin-right: 65vw;
+    width: 7%;
+    height: auto;
+    clip-path: ellipse(50% 40%);
 }
 
 .content-navbar {
