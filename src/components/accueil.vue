@@ -1,6 +1,4 @@
-<script setup>
-//import "../assets/JS/typing.js";
-</script>
+<script setup></script>
 
 <template>
     <section id="accueil" class="section-body" href="#accueil">
@@ -18,7 +16,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.section-body {
-}
-</style>
+<style src="../assets/css/style.css"></style>

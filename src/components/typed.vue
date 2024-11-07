@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { onMounted, ref } from "vue";
 import Typed from "typed.js";
 
@@ -29,4 +29,4 @@ export default {
 };
 </script>
 
-<style src="../assets/css/style.css"></style>
+<style src="../assets/css/style.css"></style> -->
