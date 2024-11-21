@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-    <section id="accueil" class="section-body" href="#accueil">
+    <section id="accueil" class="section-body">
         <div class="div-infos">
             <h4 class="me-infos">Je suis</h4>
             <h1 class="title-center">WEBER ALDWIN</h1>
