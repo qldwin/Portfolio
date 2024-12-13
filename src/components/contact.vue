@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
         <section id="contact" class="section-body" href="#contact">
             <div class="contacts-container">
@@ -31,9 +29,4 @@ export default {
 };
 </script>
 
-<style src="../assets/css/contact.css"></style>
-
-<style scoped>
-.section-body {
-}
-</style>
+<style src="../assets/CSS/contact.css"></style>

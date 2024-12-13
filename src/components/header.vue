@@ -1,7 +1,7 @@
 <template>
     <header>
         <nav class="navbar">  
-            <ul class="pic-navbar-list">
+            <ul class="pic-navbar">
                 <li class="pic-navbar-div"><img class="pic-navbar" src="/public/moi.webp" alt="portrait de Aldwin WEBER" /></li>
             </ul>
             <ul class="list-navbar">
@@ -20,8 +20,4 @@ export default {
 };
 </script>
 
-
-<style scoped>
-.section-body {
-}
-</style>
+<style src="../assets/CSS/style.css"></style>

@@ -18,7 +18,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.section-body {
-}
-</style>
+<style src="../assets/CSS/style.css"></style>

@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
         <section id="projets" class="section-body" href="#projets">
             <div class="projets-carte-visite">
@@ -42,9 +40,5 @@ export default {
 };
 </script>
 
-<style src="../assets/css/projects.css"></style>
-
-<style scoped>
-.section-body {
-}
-</style>
+<style src="../assets/CSS/projects.css"></style>
+<style src="../assets/CSS/style.css"></style>
