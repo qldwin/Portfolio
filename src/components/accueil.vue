@@ -1,9 +1,5 @@
-<script setup>
-//import "../assets/JS/typing.js";
-</script>
-
 <template>
-    <section id="accueil" class="section-body" href="#accueil">
+    <section id="accueil" class="section-body">
         <div class="div-infos">
             <h4 class="me-infos">Je suis</h4>
             <h1 class="title-center">WEBER ALDWIN</h1>
@@ -18,4 +14,8 @@ export default {
 };
 </script>
 
+<<<<<<< HEAD
 <style src="../assets/CSS/style.css"></style>
+=======
+<style src="../assets/css/style.css"></style>
+>>>>>>> 1c7e931400bb37e66f6e71bc6d9d4716cb42198f

@@ -1,26 +1,26 @@
 <template>
-        <section id="contact" class="section-body" href="#contact">
-            <div class="contacts-container">
-                <div class="Box_Contacts">
-                    <h1>Contacts</h1>
+    <section id="contact" class="section-body" href="#contact">
+        <div class="contacts-container">
+            <div class="Box_Contacts">
+                <h1>Contacts</h1>
 
-                    <h4>Pour me contacter, envoyez-moi un mail ci-dessous.</h4>
-                    <form action="/controller/mail.php" method="post">
-                        <input class="nom" type="text" name="nom" aria-label="expediteur nom" placeholder="Jean DUPONT" />
-                        <input class="email" type="mail" name="email" aria-label="expediteur mail" placeholder="jean.dupont@gmail.com" />
-                        <textarea name="message" class="contactText" placeholder="Détail de votre demande"></textarea>
-                        <input class="submit" aria-label="expediteur message" type="submit" value="Envoyez un message" />
-                    </form>
-                </div>
-
-                <nav class="social-navbar">
-                    <ul>
-                        <li class="social-li-navbar"></li>
-                        <li class="social-li-navbar"></li>
-                    </ul>
-                </nav>
+                <h4>Pour me contacter, envoyez-moi un mail ci-dessous.</h4>
+                <form action="/controller/mail.php" method="post">
+                    <input class="nom" type="text" name="nom" aria-label="expediteur nom" placeholder="Jean DUPONT" />
+                    <input class="email" type="mail" name="email" aria-label="expediteur mail" placeholder="jean.dupont@gmail.com" />
+                    <textarea name="message" class="contactText" placeholder="Détail de votre demande"></textarea>
+                    <input class="submit" aria-label="expediteur message" type="submit" value="Envoyez un message" />
+                </form>
             </div>
-        </section>
+
+            <nav class="social-navbar">
+                <ul>
+                    <li class="social-li-navbar"></li>
+                    <li class="social-li-navbar"></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -29,4 +29,9 @@ export default {
 };
 </script>
 
+<<<<<<< HEAD
 <style src="../assets/CSS/contact.css"></style>
+=======
+<style src="../assets/css/contact.css"></style>
+<style src="../assets/css/style.css"></style>
+>>>>>>> 1c7e931400bb37e66f6e71bc6d9d4716cb42198f
