@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import Typed from "typed.js"; // Assurez-vous que Typed est importé
+import Typed from "typed.js"; 
 
 const element = ref(null);
 
@@ -19,14 +19,4 @@ onMounted(() => {
     <div ref="element"></div>
 </template>
 
-<<<<<<< HEAD
-<script>
-export default {
-    name: "Typed",
-};
-</script>
-
-<style src="../assets/CSS/style.css"></style>
-=======
 <style src="../assets/css/style.css"></style>
->>>>>>> 1c7e931400bb37e66f6e71bc6d9d4716cb42198f

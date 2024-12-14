@@ -40,10 +40,5 @@ export default {
 };
 </script>
 
-<<<<<<< HEAD
-<style src="../assets/CSS/projects.css"></style>
-<style src="../assets/CSS/style.css"></style>
-=======
 <style src="../assets/css/projects.css"></style>
 <style src="../assets/css/style.css"></style>
->>>>>>> 1c7e931400bb37e66f6e71bc6d9d4716cb42198f
