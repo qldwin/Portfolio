@@ -31,3 +31,7 @@ export default {
 
 <style src="../assets/css/contact.css"></style>
 <style src="../assets/css/style.css"></style>
+
+<style scoped>
+
+</style>

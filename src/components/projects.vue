@@ -42,3 +42,7 @@ export default {
 
 <style src="../assets/css/projects.css"></style>
 <style src="../assets/css/style.css"></style>
+
+<style scoped>  
+
+</style>

@@ -1,3 +1,7 @@
+<template>
+    <div ref="element"></div>
+</template>
+
 <script setup>
 import { onMounted, ref } from "vue";
 import Typed from "typed.js"; 
@@ -6,7 +10,7 @@ const element = ref(null);
 
 onMounted(() => {
     const options = {
-        strings: ["Développeur Full-Stack.", "Étudiant en BTS SIO.", "J'ai 20 ans.", "J'habite au Mans.", "J'étudie à Nîmes.", "Lycée CCI GARD."],
+        strings: ["Développeur Full-Stack.", "Étudiant en BTS SIO.", "J'ai 20 ans.", "J'étudie à Nîmes.", "Lycée CCI GARD."],
         typeSpeed: 100,
         loop: true,
     };
@@ -15,8 +19,7 @@ onMounted(() => {
 });
 </script>
 
-<template>
-    <div ref="element"></div>
-</template>
-
 <style src="../assets/css/style.css"></style>
+<style scoped>
+
+</style>
