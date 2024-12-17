@@ -1,7 +1,5 @@
-<script setup></script>
-
 <template>
-        <section id="competences" class="section-body" href="#competences">COMPETENCES</section>
+    <section id="competences" class="section-body" href="#competences">COMPETENCES</section>
 </template>
 
 <script>
@@ -10,7 +8,7 @@ export default {
 };
 </script>
 
+<style src="../assets/css/style.css"></style>
 <style scoped>
-.section-body {
-}
+
 </style>
