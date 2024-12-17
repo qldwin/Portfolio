@@ -19,9 +19,3 @@ export default {
     name: "MyHeader",
 };
 </script>
-
-<style src="../assets/css/style.css"></style>
-
-<style scoped>
-
-</style>
