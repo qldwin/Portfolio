@@ -34,4 +34,4 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: "dist/*"
           rm: true
-          target: "/var/www/html/v2"
+          target: "/var/www/html/"
