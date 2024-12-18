@@ -1,12 +1,10 @@
 <template>
-    <div ref="element"></div>
+    <span id="element"></span>
 </template>
 
 <script setup>
-import { onMounted, ref } from "vue";
-import Typed from "typed.js"; 
-
-const element = ref(null);
+import { onMounted } from "vue";
+import Typed from "typed.js";
 
 onMounted(() => {
     const options = {
@@ -15,12 +13,6 @@ onMounted(() => {
         loop: true,
     };
 
-    const typed = new Typed(element.value, options);
+    const typed = new Typed("#element", options);
 });
 </script>
-
-<style src="../assets/css/style.css"></style>
-
-<style scoped>
-
-</style>

@@ -1,13 +1,13 @@
 <template>
-    <section id="contact" class="section-body" href="#contact">
+    <section id="contact" class="section-body">
         <div class="contacts-container">
             <div class="Box_Contacts">
                 <h1>Contacts</h1>
 
                 <h4>Pour me contacter, envoyez-moi un mail ci-dessous.</h4>
-                <form action="/controller/mail.php" method="post">
+                <form action="" method="post">
                     <input class="nom" type="text" name="nom" aria-label="expediteur nom" placeholder="Jean DUPONT" />
-                    <input class="email" type="mail" name="email" aria-label="expediteur mail" placeholder="jean.dupont@gmail.com" />
+                    <input class="email" type="email" name="email" aria-label="expediteur mail" placeholder="jean.dupont@gmail.com" />
                     <textarea name="message" class="contactText" placeholder="Détail de votre demande"></textarea>
                     <input class="submit" aria-label="expediteur message" type="submit" value="Envoyez un message" />
                 </form>
@@ -30,8 +30,3 @@ export default {
 </script>
 
 <style src="../assets/css/contact.css"></style>
-<style src="../assets/css/style.css"></style>
-
-<style scoped>
-
-</style>
