@@ -35,3 +35,4 @@ jobs:
           source: "dist/*"
           rm: true
           target: "/var/www/html/"
+          strip_components: 1
