@@ -13,13 +13,13 @@ body {
     left: 0;
     width: 100%;
     z-index: 999;
-    line-height: 4;
     display: flex;
 }
 
 .list-navbar {
     list-style-type: none;
     display: flex;
+    line-height: 6;
 }
 
 .pic-navbar {
@@ -29,7 +29,6 @@ body {
 
 .pic-navbar-list {
     list-style-type: none;
-    
 }
 
 .content-navbar {

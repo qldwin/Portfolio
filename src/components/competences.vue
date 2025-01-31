@@ -1,16 +1,9 @@
-<script setup></script>
-
 <template>
-        <section id="competences" class="section-body" href="#competences">COMPETENCES</section>
+  <section id="competences" class="section-body">COMPETENCES</section>
 </template>
 
 <script>
 export default {
-    name: "Competences",
+  name: "Competences",
 };
 </script>
-
-<style scoped>
-.section-body {
-}
-</style>
