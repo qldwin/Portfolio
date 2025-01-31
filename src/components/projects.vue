@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="section-body">
+  <section id="projects" class="section-body" href="#projects">
     <div class="projects-card-visit">
       <div class="card">
         <div class="cart-header">

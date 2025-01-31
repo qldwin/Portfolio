@@ -1,5 +1,5 @@
 <template>
-  <section id="skills" class="section-body">COMPETENCES</section>
+  <section id="skills" class="section-body" href="#skills">COMPETENCES</section>
 </template>
 
 <script>

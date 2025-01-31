@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="section-body">
+  <section id="home" class="section-body" href="#">
     <div class="div-infos">
       <h4 class="me-infos">Je suis</h4>
       <h1 class="title-center">WEBER ALDWIN</h1>
