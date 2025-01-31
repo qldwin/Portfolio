@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #24252a;
     font-family: "Poppins", serif;
     color: #cccccc;
@@ -19,7 +20,7 @@ body {
 .list-navbar {
     list-style-type: none;
     display: flex;
-    line-height: 6;
+    line-height: 5;
 }
 
 .pic-navbar {
@@ -44,9 +45,7 @@ ul li a {
 }
 
 ul li a:hover {
-    text-decoration: overline;
     text-decoration: underline;
-    text-shadow: 2px black;
 }
 
 .div-infos {
@@ -79,6 +78,9 @@ ul li a:hover {
     box-sizing: border-box;
 }
 
-.description {
-
+.description p {
+    text-align: center;
 }
+
+
+

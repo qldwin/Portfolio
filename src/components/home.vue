@@ -1,5 +1,5 @@
 <template>
-  <section id="accueil" class="section-body">
+  <section id="home" class="section-body">
     <div class="div-infos">
       <h4 class="me-infos">Je suis</h4>
       <h1 class="title-center">WEBER ALDWIN</h1>
@@ -12,7 +12,7 @@
 import Typed from './typed.vue';
 
 export default {
-  name: "Accueil",
+  name: "Home",
   components: {
     Typed,
   },
