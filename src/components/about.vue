@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section id="about" class="section-body" href="#about">
+  <section id="about" class="section-body">
     <div class="description">
       <p>
         Je suis passionné par le développement et toujours curieux d’apprendre de nouvelles technologies.
