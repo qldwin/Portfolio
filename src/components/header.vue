@@ -6,6 +6,7 @@
             </ul>
             <ul class="list-navbar">
                 <li class="content-navbar"><a aria-current="page" href="#accueil">Accueil</a></li>
+                <li class="content-navbar"><a aria-current="page" href="#apropos">À propos</a></li>
                 <li class="content-navbar"><a aria-current="page" href="#projets">Projets</a></li>
                 <li class="content-navbar"><a aria-current="page" href="#competences">Compétences</a></li>
                 <li class="content-navbar"><a aria-current="page" href="#contact">Contact</a></li>
