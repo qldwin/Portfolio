@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    padding: 0;
     background-color: #24252a;
     font-family: "Poppins", serif;
     color: #cccccc;
@@ -19,7 +20,8 @@ body {
 .list-navbar {
     list-style-type: none;
     display: flex;
-    line-height: 6;
+    line-height: 5;
+    white-space: nowrap;
 }
 
 .pic-navbar {
@@ -44,9 +46,7 @@ ul li a {
 }
 
 ul li a:hover {
-    text-decoration: overline;
     text-decoration: underline;
-    text-shadow: 2px black;
 }
 
 .div-infos {
@@ -77,4 +77,22 @@ ul li a:hover {
     margin: 0;
     padding: 70px 0;
     box-sizing: border-box;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+
+.section-body.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.description p {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
