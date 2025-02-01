@@ -2,7 +2,7 @@
   <section id="contact" class="section-body">
     <div class="contacts-container">
       <div class="Box_Contacts">
-        <h1>Contacts</h1>
+        <h1>Contact</h1>
 
         <h4>Pour me contacter, envoyez-moi un mail ci-dessous.</h4>
         <form action="" method="post">
