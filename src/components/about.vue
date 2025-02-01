@@ -14,6 +14,16 @@
         Je suis toujours partant pour échanger, partager des idées ou relever de nouveaux défis, alors n’hésite pas à me contacter ! 🚀
       </p>
     </div>
+    <div class="div-social-media">
+      <div class="social-media">
+        <a href="https://github.com/qldwin" target="_blank">
+          <img class="logo-social-media" src="/src/assets/img/Github-logo.webp" alt="logo GitHub"/>
+        </a>
+        <a href="https://www.linkedin.com/in/aldwin-weber/" target="_blank">
+          <img class="logo-social-media" src="/src/assets/img/linkedin.webp" alt="logo Linkedin"/>
+        </a>
+      </div>
+    </div>
   </section>
 </template>
 
