@@ -1,44 +1,53 @@
 <template>
   <section id="projects" class="section-body">
     <div class="projects-card-visit">
-      <div class="card">
-        <div class="cart-header">
-          <h2>Burgbad Projet</h2>
-          <div class="project_languages">
-            <span>VBA</span>
-            <span>SQLServer</span>
-          </div>
-        </div>
-        <div class="card-body">
-          <span>Stage</span>
-          <p>Logiciel pour gérer les clients et créer des devis, avec une gestion CRUD et base de données SQLServer.</p>
-        </div>
-      </div>
-      <div class="card">
+      <!-- Génération des cartes via une boucle -->
+      <div v-for="(project, index) in projects" :key="index" class="card">
         <div class="card-header">
-          <h2>OneManga</h2>
+          <h2>{{ project.title }}</h2>
           <div class="project_languages">
-            <span>HTML/CSS</span>
-            <span>JavaScript</span>
-            <span>PHP</span>
+            <span v-for="(language, langIndex) in project.languages" :key="langIndex">
+              {{ language }}
+            </span>
           </div>
         </div>
         <div class="card-body">
-          <span>Cours</span>
-          <p>Site vitrine pour l'achat de mangas selon les catégories, développé en équipe.</p>
+          <span>{{ project.type }}</span>
+          <p>{{ project.description }}</p>
+          <div class="button-container">
+            <button
+                class="project-button"
+                :disabled="!project.url"
+                :class="{ disabled: !project.url }"
+                @click="goToProject(project.url)">
+              {{ project.url ? "GitHub" : "Non disponible" }}
+            </button>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </template>
 
+
+<style src="../assets/CSS/projects.css"></style>
+
 <script>
+
+import Manage_projects from "../assets/JS/manage_projects.js";
+
 export default {
-  name: "Projects",
+  name: "Projets",
+  data() {
+    return Manage_projects.data(); // Charge les données du fichier externe
+  },
+  methods: {
+    goToProject(url) {
+      // Redirection vers l'URL
+      window.open(url, "_blank");
+    },
+  },
 };
 </script>
 
-<style src="../assets/CSS/projects.css"></style>
-<style scoped>
 
-</style>
