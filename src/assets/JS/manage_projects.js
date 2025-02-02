@@ -5,6 +5,17 @@ export default {
             // Liste des projets
             projects: [
                 {
+                    title: "Kit sensibilisation IA",
+                    languages: ["HTML/CSS", "JavaScript", "Bootstrap"],
+                    type: "Cours",
+                    description:
+                        "Nous étions quatre sur ce projet, c'est un site vitrine pour présenter les différents aspects des intelligences artificielles. \n" +
+                        "Ce projet était destiné aux élèves de seconde au lycée de la CCI, mais s'est étendu et est maintenant disponible en ligne. \n" +
+                        "Sur le site, plusieurs modules sont disponibles pour présenter les dangers de l'IA et des articles concernant les IA.",
+                    url:"https://github.com/Bts-Sio-CCI/kit-ia/tree/stable",
+                    link: "https://kit-ia.fr/",
+                },
+                {
                     title: "OcoinGourmand",
                     languages: ["HTML/CSS", "JavaScript", "PHP"],
                     type: "Stage",

@@ -2,7 +2,7 @@
     <header>
         <nav class="navbar">
             <ul class="pic-navbar-list">
-                <li class="pic-navbar-div"><img class="pic-navbar" src="/src/assets/img/portrait.jpg" alt="portrait de Aldwin WEBER" /></li>
+                <li class="pic-navbar-div"><img class="pic-navbar" src="/portrait.jpg" alt="portrait de Aldwin WEBER" /></li>
             </ul>
             <ul class="list-navbar">
                 <li class="content-navbar"><a aria-current="page" href="#">Accueil</a></li>

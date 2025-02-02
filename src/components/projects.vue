@@ -20,7 +20,14 @@
                 :disabled="!project.url"
                 :class="{ disabled: !project.url }"
                 @click="goToProject(project.url)">
-              {{ project.url ? "GitHub" : "Non disponible" }}
+              {{ project.url ? "GitHub" : "Git indisponible" }}
+            </button>
+            <button
+                class="project-button"
+                :disabled="!project.link"
+                :class="{ disabled: !project.link }"
+                @click="goToProject(project.link)">
+              {{project.link ? "Site web" : "Site indisponible"}}
             </button>
           </div>
         </div>
