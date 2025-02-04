@@ -33,7 +33,7 @@ export default {
   name: "About",
 };
 </script>
-
+<style src="../assets/CSS/about.css"></style>
 <style scoped>
 
 </style>  
