@@ -21,11 +21,13 @@
 .Box_Contacts h1 {
     background: transparent;
     box-shadow: -4px 4px 0px 0px #cccccc inset;
-    width: 100%;
+    width: 55vw;
     height: 56px;
     text-align: center;
     line-height: 100px;
     border-style: none;
+    border-radius: 0.3rem;
+    padding-top: 1vh;
 }
 
 .Box_Contacts form {
@@ -36,36 +38,68 @@
     justify-content: center;
 }
 
-.Box_Contacts input {
+.text-input {
     height: 48px;
 }
 
-.Box_Contacts input,
+.text-input,
 textarea {
+    padding-right: 10px;
+    padding-left: 10px;
+    background: transparent;
     margin-top: 32px;
-    border-radius: 8px;
-    color: #000;
-    border: 1px solid #858c94;
-    background: rgba(255, 255, 255, 0.7);
+    border-radius: 0.3rem;
+    color: #fff;
+    border: 3px solid #ccc;
+    font-size: 0.9rem;
 }
 
-.Box_Contacts textarea {
+textarea {
+    padding-right: 10px;
+    padding-top: 10px;
     height: 128px;
     resize: none;
 }
 
-.social-navbar {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    margin-top: 2vh;
-    bottom: 50vh;
+.submit{
+    font: inherit;
+    background: none;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 50px;
+    margin-top: 3vh;
+    cursor: pointer;
 }
 
-.social-li-navbar {
-    list-style-type: none;
+.submit:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffffff;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease;
 }
 
+.submit:hover{
+    color: #aaaaaa;
+}
+
+.submit:hover::after{
+    width: 100%;
+}
+
+.text-input:focus, textarea:focus{
+    outline: none;
+}
 
 @media screen and (max-width: 1024px) {
     .Box_Contacts {
