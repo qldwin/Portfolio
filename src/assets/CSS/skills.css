@@ -1,86 +1,202 @@
-.card-languages{
-    background-color: #333;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 50%;
+.section-body#skills {
+    scroll-margin-block-start: 250px;
+}
+
+.grid-about{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.card-languages {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 20vw;
+    margin-left: 20vw;
 }
 
 .card-languages:hover {
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .grid-languages {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
+    padding: 20px;
 }
 
+.title-languages {
+    background: transparent;
+    text-decoration: underline;
+}
+
+/* Styles des spans */
 .skills_languages {
-    padding: 12px 18px;
+    padding: 12px 2px;
     border-radius: 10px;
     text-align: center;
     font-size: 16px;
     font-weight: bold;
     color: white;
-    backdrop-filter: blur(100px) brightness(100%); /* Plus de flou et ajustement de luminosité */
-    background-color: rgba(255, 255, 255, 0); /* Base transparente et lumineuse */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre douce pour l'effet de profondeur */
+    backdrop-filter: blur(25px) brightness(110%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
 }
 
-/* Effet au survol pour un effet interactif */
+/* Effet au survol */
 .skills_languages:hover {
     transform: translateY(-3px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre accentuée au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Couleurs personnalisées pour chaque langage */
+/* Couleurs vitreuses pour chaque langage */
 .skills_languages.html {
-    background-color: rgba(227, 79, 38, 0.35); /* Rouge orangé */
+    background: rgba(227, 79, 38, 0.2);
 }
 
 .skills_languages.css {
-    background-color: rgba(21, 114, 182, 0.35); /* Bleu */
+    background: rgba(21, 114, 182, 0.2);
 }
 
 .skills_languages.javascript {
-    background-color: rgba(247, 223, 30, 0.35); /* Jaune */
-    color: black; /* Texte noir pour contraste */
+    background: rgba(247, 223, 30, 0.2);
 }
 
 .skills_languages.vuejs {
-    background-color: rgba(65, 184, 131, 0.35); /* Vert */
+    background: rgba(65, 184, 131, 0.2);
 }
 
 .skills_languages.vitejs {
-    background-color: rgba(100, 108, 255, 0.35); /* Bleu violet */
+    background: rgba(100, 108, 255, 0.2);
 }
 
 .skills_languages.php {
-    background-color: rgba(119, 123, 180, 0.35); /* Violet */
+    background: rgba(119, 123, 180, 0.2);
 }
 
 .skills_languages.java {
-    background-color: rgba(83, 130, 161, 0.35); /* Bleu vif */
+    background: rgba(83, 130, 161, 0.2);
 }
 
 .skills_languages.csharp {
-    background-color: rgba(23, 134, 0, 0.35); /* Vert vif */
+    background: rgba(23, 134, 0, 0.2);
 }
 
 .skills_languages.visualbasic {
-    background-color: rgba(33, 115, 70, 0.35); /* Vert foncé */
+    background: rgba(33, 115, 70, 0.2);
 }
 
 .skills_languages.flutter {
-    background-color: rgba(2, 86, 155, 0.35); /* Bleu clair */
+    background: rgba(2, 86, 155, 0.2);
 }
 
 .skills_languages.cpp {
-    background-color: rgba(0, 89, 156, 0.35); /* Bleu foncé */
+    background: rgba(0, 89, 156, 0.2);
 }
+
+.card-tools {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 20vw;
+    margin-right: 20vw;
+}
+
+.card-tools:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.grid-tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.title-tools {
+    background: transparent;
+    text-decoration: underline;
+}
+
+/* Styles des spans */
+.skills_tools {
+    padding: 12px 2px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    backdrop-filter: blur(25px) brightness(110%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.15));
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Effet au survol */
+.skills_tools:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.skills_tools.linux {
+    background: rgba(255, 213, 0, 0.2);
+}
+
+.skills_tools.github {
+    background: rgba(36, 41, 47, 0.2);
+}
+
+.skills_tools.git {
+    background: rgba(228, 77, 38, 0.2);
+}
+
+.skills_tools.docker {
+    background: rgba(0, 123, 255, 0.2);
+}
+
+.skills_tools.visualstudio {
+    background: rgba(86, 156, 214, 0.2);
+}
+
+.skills_tools.webstorm {
+    background: rgba(0, 168, 255, 0.2);
+}
+
+.skills_tools.phpstorm {
+    background: rgba(163, 30, 99, 0.2);
+}
+
+.skills_tools.sqlserver {
+    background: rgba(153, 0, 0, 0.2);
+}
+
+.skills_tools.mysql {
+    background: rgba(255, 115, 0, 0.2);
+}
+
+.skills_tools.jetbrains {
+    background: rgba(38, 38, 38, 0.2);
+}
+
+.skills_tools.vscode {
+    background: rgba(0, 122, 204, 0.2);
+}
+
+
