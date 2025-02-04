@@ -1,13 +1,22 @@
 <template>
   <section id="skills" class="section-body">
     <grid>
-      <div class="card">
-        <h1>Languages</h1>
-        <div class=""><span class="keyword">&lt;p&gt;</span><span class="string">HTML</span><span class="keyword">&lt;/p&gt;</span></div>
-        <div class=""><span class="function">console.log</span>(<span class="string">"JavaScript"</span>);</div>
-        <div class=""><span class="function">console.writeline</span>(<span class="string">"C#"</span>);</div>
-        <div class=""><span class="attribute">body</span> { <span class="string">background-color: black;</span> }</div>
-        <div class=""><span class="function">print</span>(<span class="string">"Python"</span>);</div>
+      <div class="card-languages">
+        <h1>Langages</h1>
+        <grid class="grid-languages">
+          <span class="skills_languages html">HTML</span>
+          <span class="skills_languages css">CSS</span>
+          <span class="skills_languages javascript">JavaScript</span>
+          <span class="skills_languages vuejs">VueJS</span>
+          <span class="skills_languages vitejs">ViteJS</span>
+          <span class="skills_languages php">PHP</span>
+          <span class="skills_languages java">Java</span>
+          <span class="skills_languages csharp">C#</span>
+          <span class="skills_languages visualbasic">Visual Basic</span>
+          <span class="skills_languages flutter">Flutter</span>
+          <span class="skills_languages cpp">C++</span>
+        </grid>
+
       </div>
       <div class="div-tools">
 

@@ -1,19 +1,86 @@
-.card {
-    padding: 15px;
+.card-languages{
+    background-color: #333;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-languages:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.grid-languages {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+
+.skills_languages {
+    padding: 12px 18px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #1E1E1E;
-    min-width: 250px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    backdrop-filter: blur(100px) brightness(100%); /* Plus de flou et ajustement de luminosité */
+    background-color: rgba(255, 255, 255, 0); /* Base transparente et lumineuse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre douce pour l'effet de profondeur */
+    transition: all 0.3s ease;
 }
-.keyword {
-    color: #CC7832;
+
+/* Effet au survol pour un effet interactif */
+.skills_languages:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Ombre accentuée au survol */
 }
-.string {
-    color: #6A8759;
+
+/* Couleurs personnalisées pour chaque langage */
+.skills_languages.html {
+    background-color: rgba(227, 79, 38, 0.35); /* Rouge orangé */
 }
-.function {
-    color: #FFC66D;
+
+.skills_languages.css {
+    background-color: rgba(21, 114, 182, 0.35); /* Bleu */
 }
-.attribute {
-    color: #9876AA;
+
+.skills_languages.javascript {
+    background-color: rgba(247, 223, 30, 0.35); /* Jaune */
+    color: black; /* Texte noir pour contraste */
+}
+
+.skills_languages.vuejs {
+    background-color: rgba(65, 184, 131, 0.35); /* Vert */
+}
+
+.skills_languages.vitejs {
+    background-color: rgba(100, 108, 255, 0.35); /* Bleu violet */
+}
+
+.skills_languages.php {
+    background-color: rgba(119, 123, 180, 0.35); /* Violet */
+}
+
+.skills_languages.java {
+    background-color: rgba(83, 130, 161, 0.35); /* Bleu vif */
+}
+
+.skills_languages.csharp {
+    background-color: rgba(23, 134, 0, 0.35); /* Vert vif */
+}
+
+.skills_languages.visualbasic {
+    background-color: rgba(33, 115, 70, 0.35); /* Vert foncé */
+}
+
+.skills_languages.flutter {
+    background-color: rgba(2, 86, 155, 0.35); /* Bleu clair */
+}
+
+.skills_languages.cpp {
+    background-color: rgba(0, 89, 156, 0.35); /* Bleu foncé */
 }
