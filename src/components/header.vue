@@ -1,6 +1,12 @@
 <template>
     <header>
-        <nav class="navbar">
+      <div id="navbarToggle" class="hamburger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <nav class="navbar">
             <ul class="pic-navbar-list">
                 <li class="pic-navbar-div"><img class="pic-navbar" src="/portrait.jpg" alt="portrait de Aldwin WEBER" /></li>
             </ul>
@@ -16,7 +22,12 @@
 </template>
 
 <script>
+import Responsiv_navbar from "../assets/JS/responsiv_navbar.js";
+
 export default {
-    name: "MyHeader",
+  name: "MyHeader",
+  mounted() {
+    Responsiv_navbar();
+  }
 };
 </script>

@@ -89,3 +89,200 @@ ul li a:hover {
 .section-body#projects{
     height: 250vh;
 }
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 950px){
+    .hamburger {
+        z-index: 93;
+        text-decoration: none;
+        position: fixed;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        margin: 20px;
+        right: 0;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 100%; /* Les barres prennent toute la largeur de la div */
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .bar1 {
+        top: 0;
+    }
+
+    .bar2 {
+        top: 15px; /* Espacement entre les barres */
+    }
+
+    .bar3 {
+        top: 30px; /* Espacement entre les barres */
+    }
+
+    /* Styles pour la croix */
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-10px, 10px);
+        top: 15px; /* Positionner la barre au milieu */
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: rotate(45deg) translate(-10px, -10px);
+        top: 15px; /* Positionner la barre au milieu */
+    }
+
+    .list-navbar {
+        display: none; /* Cache la navbar desktop */
+        flex-direction: column;
+        background-color: #323232;
+        height: 100vh;
+        width: 70vw;
+        position: fixed;
+        top: 0;
+        transition: top 1s ease;
+    }
+
+    .list-navbar.active {
+        width: 100%;
+        z-index: 80;
+        margin-left: 0;
+    }
+
+    .menu-navbar {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5vh;
+        gap: 20px;
+    }
+
+    .menu-navbar a {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .menu-navbar a:active {
+        border-radius: 10px;
+    }
+
+    .dropdown-container {
+        width: 100%;
+    }
+
+    .dropdown-container:active {
+        position: relative;
+        display: inline-block;
+    }
+    .hamburger {
+        z-index: 93;
+        text-decoration: none;
+        position: fixed;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40px;
+        margin: 20px;
+        right: 0;
+    }
+
+    .bar1, .bar2, .bar3 {
+        width: 100%; /* Les barres prennent toute la largeur de la div */
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .bar1 {
+        top: 0;
+    }
+
+    .bar2 {
+        top: 15px; /* Espacement entre les barres */
+    }
+
+    .bar3 {
+        top: 30px; /* Espacement entre les barres */
+    }
+
+    /* Styles pour la croix */
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-10px, 10px);
+        top: 15px; /* Positionner la barre au milieu */
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: rotate(45deg) translate(-10px, -10px);
+        top: 15px; /* Positionner la barre au milieu */
+    }
+
+    .list-navbar {
+        display: none; /* Cache la navbar desktop */
+        flex-direction: column;
+        background-color: #323232;
+        height: 100vh;
+        width: 70vw;
+        position: fixed;
+        top: 0;
+        transition: top 1s ease;
+    }
+
+    .list-navbar.active {
+        display: flex;
+        left: 0;
+        width: 100%;
+        z-index: 80;
+    }
+
+    .menu-navbar {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 5vh;
+        gap: 20px;
+    }
+
+    .menu-navbar a {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .menu-navbar a:active {
+        border-radius: 10px;
+    }
+
+    .dropdown-container {
+        width: 100%;
+    }
+
+    .dropdown-container:active .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-container:active {
+        position: relative;
+        display: inline-block;
+    }
+
+}
