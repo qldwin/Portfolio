@@ -107,5 +107,10 @@
     .card {
         width: 75%;
     }
+}
 
+@media (max-width: 480px) {
+    .projects-card-visit {
+        margin-top: 10vh;
+    }
 }
