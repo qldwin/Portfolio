@@ -59,3 +59,12 @@
 .download-link:hover::after {
     width: 100%;
 }
+
+
+@media (max-width: 950px) {
+
+    .section-body#about{
+        min-height: 180vh;
+    }
+
+}

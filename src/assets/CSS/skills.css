@@ -72,3 +72,34 @@
     text-decoration: underline;
 }
 
+@media (max-width: 950px) {
+
+    .section-body#skills {
+        min-height: 130vh;
+    }
+
+    .card-languages{
+        margin-left: 0;
+        width: 70vw;
+        justify-content: center;
+    }
+    .card-tools{
+        margin-right: 0;
+        width: 70vw;
+        justify-content: center;
+    }
+
+    .grid-about{
+        display: grid;
+        gap: 5vh;
+    }
+
+    .grid-tools{
+        margin-left: 5vh;
+    }
+
+    .grid-languages{
+        margin-left: 5vh;
+    }
+}
+

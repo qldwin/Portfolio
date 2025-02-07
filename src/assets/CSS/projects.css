@@ -97,3 +97,15 @@
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
+
+@media (max-width: 950px) {
+
+    .section-body#projects {
+        min-height: 280vh;
+    }
+
+    .card {
+        width: 75%;
+    }
+
+}

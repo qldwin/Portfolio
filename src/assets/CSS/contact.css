@@ -107,6 +107,12 @@ textarea {
     }
 }
 
+@media (max-width: 950px) {
+    .Box_Contacts h1{
+        width: 90vw;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .Box_Contacts {
         width: 85vw;
