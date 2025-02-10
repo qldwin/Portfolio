@@ -1,11 +1,11 @@
 require('dotenv').config();
-const http = require('http');
+const https = require('https');
 const nodemailer = require('nodemailer');
 const url = require('url');
 const querystring = require('querystring');
 const { StringDecoder } = require('string_decoder');
 
-const server = http.createServer((req, res) => {
+const server = https.createServer((req, res) => {
     if (req.method === 'POST' && req.url === '/send-email') {
         const decoder = new StringDecoder('utf-8');
         let data = '';
@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
 
             const mailOptions = {
                 from: email,
-                to: 'aldwin.weber54gmail.com',
+                to: 'aldwin.weber54@gmail.com',
                 subject: `Nouveau message sur ton portfolio de ${name}`,
                 text: textInput,
             };
@@ -50,5 +50,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(80, () => {
-    console.log('Serveur HTTP démarré sur http://localhost:3000');
+    console.log('Serveur HTTP démarré sur http://localhost:80');
 });
