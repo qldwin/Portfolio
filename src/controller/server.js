@@ -1,11 +1,11 @@
 require('dotenv').config();
-const http = require('http');
+const https = require('https');
 const nodemailer = require('nodemailer');
 const url = require('url');
 const querystring = require('querystring');
 const { StringDecoder } = require('string_decoder');
 
-const server = http.createServer((req, res) => {
+const server = https.createServer((req, res) => {
     if (req.method === 'POST' && req.url === '/send-email') {
         const decoder = new StringDecoder('utf-8');
         let data = '';
