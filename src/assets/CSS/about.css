@@ -60,11 +60,14 @@
     width: 100%;
 }
 
-
 @media (max-width: 950px) {
+
+    .description p {
+        text-align: left;
+        font-size: 0.9rem;
+    }
 
     .section-body#about{
         min-height: 180vh;
     }
-
 }
