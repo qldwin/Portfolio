@@ -28,7 +28,7 @@ const server = http.createServer((req, res) => {
 
             const mailOptions = {
                 from: email,
-                to: 'aldwin.weber54gmail.com',
+                to: 'aldwin.weber54@gmail.com',
                 subject: `Nouveau message sur ton portfolio de ${name}`,
                 text: textInput,
             };
@@ -50,5 +50,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(80, () => {
-    console.log('Serveur HTTP démarré sur http://localhost:3000');
+    console.log('Serveur HTTP démarré sur http://localhost:80');
 });
