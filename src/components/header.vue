@@ -15,7 +15,7 @@
                 <li class="content-navbar"><a aria-current="page" href="#about">À propos</a></li>
               <li class="content-navbar"><a aria-current="page" href="#skills">Compétences</a></li>
                 <li class="content-navbar"><a aria-current="page" href="#projects">Projets</a></li>
-                <li class="content-navbar"><a aria-current="page" href="#contact">Contact</a></li>
+<!--                <li class="content-navbar"><a aria-current="page" href="#contact">Contact</a></li>-->
             </ul>
         </nav>
     </header>
