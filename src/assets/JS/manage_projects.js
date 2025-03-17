@@ -23,7 +23,6 @@ export default {
                         "Durant mon stage de deuxième année de BTS, j'ai créé un site vitrine pour la pâtisserie O'coin Gourmand à Bellgarde. \n" +
                         "J'ai donc créé le design du site en rapport avec l'identité de l'entreprise, les clients peuvent réserver un produit directement sur le site, \n " +
                         "Les employés peuvent se connecter sur le site grâce à des identifiants pour avoir accès à la gestion des commandes.",
-                    url:"https://github.com/qldwin/OcoinGourmand",
                 },
                 {
                     title: "OneManga",
