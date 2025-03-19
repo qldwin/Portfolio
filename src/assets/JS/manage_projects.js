@@ -17,7 +17,7 @@ export default {
                 },
                 {
                     title: "OcoinGourmand",
-                    languages: ["HTML/CSS", "JavaScript", "PHP"],
+                    languages: ["HTML/CSS", "JavaScript", "Symfony", "PHP"],
                     type: "Stage",
                     description:
                         "Durant mon stage de deuxième année de BTS, j'ai créé un site vitrine pour la pâtisserie O'coin Gourmand à Bellgarde. \n" +
