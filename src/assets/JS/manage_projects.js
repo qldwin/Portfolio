@@ -13,11 +13,10 @@ export default {
                         "Ce projet était destiné aux élèves de seconde au lycée de la CCI, mais s'est étendu et est maintenant disponible en ligne. \n" +
                         "Sur le site, plusieurs modules sont disponibles pour présenter les dangers de l'IA et des articles concernant les IA.",
                     url:"https://github.com/Bts-Sio-CCI/kit-ia/tree/stable",
-                    link: "https://kit-ia.fr/",
                 },
                 {
                     title: "OcoinGourmand",
-                    languages: ["HTML/CSS", "JavaScript", "Symfony", "PHP", "PostgreSQL"],
+                    languages: ["Wordpress"],
                     type: "Stage",
                     description:
                         "Durant mon stage de deuxième année de BTS, j'ai créé un site vitrine pour la pâtisserie O'coin Gourmand à Bellgarde. \n" +
@@ -46,7 +45,7 @@ export default {
                 },
                 {
                     title: "Burgbad Projet",
-                    languages: ["Visual Basic", "SQLServer"],
+                    languages: ["Visual Basic for Applications", "SQLServer"],
                     type: "Stage",
                     description:
                         "Comme projet pour mon stage de première année de BTS, j'ai développé un logiciel de gestion de devis pour l'entreprise Burgbad France. \n" +
