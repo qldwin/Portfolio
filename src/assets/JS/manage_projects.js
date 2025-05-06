@@ -12,7 +12,7 @@ export default {
                         "Nous étions quatre sur ce projet, c'est un site vitrine pour présenter les différents aspects des intelligences artificielles. \n" +
                         "Ce projet était destiné aux élèves de seconde au lycée de la CCI, mais s'est étendu et est maintenant disponible en ligne. \n" +
                         "Sur le site, plusieurs modules sont disponibles pour présenter les dangers de l'IA et des articles concernant les IA.",
-                    url:"https://github.com/Bts-Sio-CCI/kit-ia/tree/stable",
+                    url:"https://github.com/Bts-Sio-CCI/kit-ia",
                 },
                 {
                     title: "OcoinGourmand",
