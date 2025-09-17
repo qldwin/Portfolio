@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="div-social-media">
-      <a href="/CV_WEBER_Aldwin.pdf" download class="download-link">Télécharger mon CV</a>
+      <a href="/CV.pdf" download class="download-link">Télécharger mon CV</a>
       <div class="social-media">
         <a href="https://github.com/qldwin" target="_blank">
           <img class="logo-social-media" src="/Github-logo.webp" alt="logo GitHub"/>
