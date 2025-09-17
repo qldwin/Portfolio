@@ -14,6 +14,6 @@ import "./assets/CSS/style.css";
   <About></About>
   <Skills></Skills>
   <Projets></Projets>
-  <Contact></Contact>
+<!--  <Contact></Contact>-->
 </template>
 

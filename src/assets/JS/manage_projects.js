@@ -12,18 +12,16 @@ export default {
                         "Nous étions quatre sur ce projet, c'est un site vitrine pour présenter les différents aspects des intelligences artificielles. \n" +
                         "Ce projet était destiné aux élèves de seconde au lycée de la CCI, mais s'est étendu et est maintenant disponible en ligne. \n" +
                         "Sur le site, plusieurs modules sont disponibles pour présenter les dangers de l'IA et des articles concernant les IA.",
-                    url:"https://github.com/Bts-Sio-CCI/kit-ia/tree/stable",
-                    link: "https://kit-ia.fr/",
+                    url:"https://github.com/Bts-Sio-CCI/kit-ia",
                 },
                 {
                     title: "OcoinGourmand",
-                    languages: ["HTML/CSS", "JavaScript", "PHP"],
+                    languages: ["Wordpress"],
                     type: "Stage",
                     description:
                         "Durant mon stage de deuxième année de BTS, j'ai créé un site vitrine pour la pâtisserie O'coin Gourmand à Bellgarde. \n" +
                         "J'ai donc créé le design du site en rapport avec l'identité de l'entreprise, les clients peuvent réserver un produit directement sur le site, \n " +
                         "Les employés peuvent se connecter sur le site grâce à des identifiants pour avoir accès à la gestion des commandes.",
-                    url:"https://github.com/qldwin/OcoinGourmand",
                 },
                 {
                     title: "OneManga",
@@ -47,7 +45,7 @@ export default {
                 },
                 {
                     title: "Burgbad Projet",
-                    languages: ["Visual Basic", "SQLServer"],
+                    languages: ["Visual Basic for Applications", "SQLServer"],
                     type: "Stage",
                     description:
                         "Comme projet pour mon stage de première année de BTS, j'ai développé un logiciel de gestion de devis pour l'entreprise Burgbad France. \n" +
