@@ -5,14 +5,27 @@ export default {
             // Liste des projets
             projects: [
                 {
+                    title: "Finantia",
+                    languages: ["HTML/CSS", "JavaScript", "TailwindCSS", "NuxtJS", "DrizzleORM", "ProstgreSQL", "ChartJS", "Docker"],
+                    type: "Personnel",
+                    picture: "/dashboard_finantia.png",
+                    description:
+                        "Le projet Finantia est une application web de gestion de budget et de patrimoine.\n " +
+                        "L’objectif de ce projet est de permettre aux utilisateurs de suivre leurs revenus, leurs dépenses ainsi que leurs investissements à travers un tableau de bord clair et interactif. \n" +
+                        "J’ai conçu cette application afin de rendre la gestion financière plus simple, intuitive et accessible au quotidien.",
+                    url:"https://github.com/qldwin/Finantia",
+                },
+                {
                     title: "Kit sensibilisation IA",
                     languages: ["HTML/CSS", "JavaScript", "Bootstrap"],
                     type: "Cours",
+                    picture: "/projet_kit_ia.png",
                     description:
                         "Nous étions quatre sur ce projet, c'est un site vitrine pour présenter les différents aspects des intelligences artificielles. \n" +
                         "Ce projet était destiné aux élèves de seconde au lycée de la CCI, mais s'est étendu et est maintenant disponible en ligne. \n" +
                         "Sur le site, plusieurs modules sont disponibles pour présenter les dangers de l'IA et des articles concernant les IA.",
                     url:"https://github.com/Bts-Sio-CCI/kit-ia",
+                    link:"https://kit-sensibilisation-ia.vercel.app/",
                 },
                 {
                     title: "OcoinGourmand",
@@ -47,6 +60,7 @@ export default {
                     title: "Burgbad Projet",
                     languages: ["Visual Basic for Applications", "SQLServer"],
                     type: "Stage",
+                    picture: "/devis.png",
                     description:
                         "Comme projet pour mon stage de première année de BTS, j'ai développé un logiciel de gestion de devis pour l'entreprise Burgbad France. \n" +
                         "Le devis se fait automatiquement grâce à des formulaires que l'employé remplit au préalable directement sur le logiciel, en sélectionnant directement le client, les produits et la quantité.",

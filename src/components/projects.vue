@@ -13,6 +13,7 @@
         </div>
         <div class="card-body">
           <span>{{ project.type }}</span>
+          <img :src="project.picture" :alt="project.title" />
           <p>{{ project.description }}</p>
           <div class="button-container">
             <button
