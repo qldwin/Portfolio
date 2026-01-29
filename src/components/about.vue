@@ -1,7 +1,3 @@
-<script setup>
-
-</script>
-
 <template>
   <section id="about" class="section-body">
     <div class="description">
@@ -34,6 +30,3 @@ export default {
 };
 </script>
 <style src="../assets/CSS/about.css"></style>
-<style scoped>
-
-</style>  

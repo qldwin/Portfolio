@@ -5,15 +5,16 @@ export default {
             // Liste des projets
             projects: [
                 {
-                    title: "Finantia",
+                    title: "AirGap",
                     languages: ["HTML/CSS", "JavaScript", "TailwindCSS", "NuxtJS", "DrizzleORM", "ProstgreSQL", "ChartJS", "Docker"],
                     type: "Personnel",
                     picture: "/dashboard_finantia.png",
                     description:
-                        "Le projet Finantia est une application web de gestion de budget et de patrimoine.\n " +
+                        "Le projet AirGap est une application web de gestion de budget et de patrimoine.\n " +
                         "L’objectif de ce projet est de permettre aux utilisateurs de suivre leurs revenus, leurs dépenses ainsi que leurs investissements à travers un tableau de bord clair et interactif. \n" +
                         "J’ai conçu cette application afin de rendre la gestion financière plus simple, intuitive et accessible au quotidien.",
-                    url:"https://github.com/qldwin/Finantia",
+                    url:"https://github.com/qldwin/AirGap",
+                    link:"https://airgap.aldwin-weber.fr/",
                 },
                 {
                     title: "Kit sensibilisation IA",
@@ -35,6 +36,7 @@ export default {
                         "Durant mon stage de deuxième année de BTS, j'ai créé un site vitrine pour la pâtisserie O'coin Gourmand à Bellgarde. \n" +
                         "J'ai donc créé le design du site en rapport avec l'identité de l'entreprise, les clients peuvent réserver un produit directement sur le site, \n " +
                         "Les employés peuvent se connecter sur le site grâce à des identifiants pour avoir accès à la gestion des commandes.",
+                    url:"https://github.com/qldwin/OcoinGourmand2",
                 },
                 {
                     title: "OneManga",

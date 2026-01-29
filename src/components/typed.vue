@@ -8,7 +8,7 @@ import Typed from "typed.js";
 
 onMounted(() => {
   const options = {
-    strings: ["Développeur Full-Stack.", "En recherche d'une alternance","Étudiant Bachelor CDA.", "J'ai 21 ans.", "J'étudie à EKOD.", "J'habite au Mans."],
+    strings: ["Développeur Full-Stack.", "En recherche d'une alternance","Étudiant Bachelor Développeur d'Applications JAVA.", "J'ai 22 ans.", "J'étudie chez Studi."],
     typeSpeed: 100,
     loop: true,
   };
