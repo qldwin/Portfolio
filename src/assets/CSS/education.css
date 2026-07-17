@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.education-container {
+    --edu-done: #c9a659;
+    --edu-progress: #7c96a8;
+    --edu-upcoming: #666666;
+    --edu-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    --edu-sans: "Poppins", sans-serif;
+
+    font-family: var(--edu-sans);
+    display: flex;
+    gap: clamp(50px, 6vw, 100px);
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: clamp(40px, 6vw, 80px) 20px;
+}
+
+.formation-column {
+    flex: 1 1 460px;
+    max-width: 560px;
+}
+
+.column-title {
+    color: #cccccc;
+    font-family: var(--edu-sans);
+    font-size: clamp(15px, 1.4vw, 19px);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    margin-bottom: clamp(24px, 3vw, 38px);
+}
+
+.formation-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.formation-item {
+    padding: clamp(20px, 2.2vw, 28px) 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.formation-list .formation-item:first-child {
+    padding-top: 0;
+}
+
+.formation-list .formation-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.formation-item:hover {
+    transform: translateX(6px);
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+.formation-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.formation-header h3 {
+    color: #e0e0e0;
+    font-family: var(--edu-sans);
+    font-size: clamp(17px, 1.5vw, 21px);
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+.formation-title-link {
+    color: #e0e0e0;
+    font-family: var(--edu-sans);
+    font-size: clamp(17px, 1.5vw, 21px);
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: baseline;
+    gap: 6px;
+    transition: color 0.2s ease;
+}
+
+.formation-title-link:hover {
+    color: var(--edu-done);
+}
+
+.link-arrow {
+    font-size: 0.7em;
+    opacity: 0;
+    transform: translate(-2px, 2px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.formation-title-link:hover .link-arrow {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.status-label {
+    flex-shrink: 0;
+    font-family: var(--edu-mono);
+    font-size: clamp(10px, 0.85vw, 12px);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.status-label.status-done {
+    color: var(--edu-done);
+}
+
+.status-label.status-progress {
+    color: var(--edu-progress);
+}
+
+.status-label.status-upcoming {
+    color: var(--edu-upcoming);
+}
+
+.formation-place {
+    color: #999999;
+    font-family: var(--edu-sans);
+    font-weight: 300;
+    font-size: clamp(13px, 1.05vw, 15px);
+    margin: 0 0 6px;
+}
+
+.formation-dates {
+    font-family: var(--edu-mono);
+    color: #666666;
+    font-size: clamp(11px, 0.9vw, 13px);
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .formation-item,
+    .link-arrow {
+        transition: none;
+    }
+}
+
+@media (max-width: 900px) {
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+}

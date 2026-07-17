@@ -2,12 +2,12 @@
   <section id="about" class="section-body">
     <div class="description">
       <p>
-                      Je suis passionné par le développement et toujours curieux d’apprendre de nouvelles technologies. <br>
-        Mon parcours, de mon BAC STI2D à mon BTS SIO SLAM, m’a permis d’explorer pas mal d’aspects du développement, que ce soit côté front ou back. <br>
-        J’aime coder des petits projets qui sont à la fois efficaces et agréables à utiliser, en cherchant toujours à optimiser les performances et l’ergonomie. <br>
+        Développeur freelance passionné, toujours curieux d’apprendre de nouvelles technologies. <br>
+        Mon parcours, de mon BAC STI2D à mon BTS SIO SLAM, m’a permis d’explorer aussi bien le développement front que back — je poursuis aujourd’hui en BUT Informatique dès septembre, pour continuer à approfondir mes compétences tout en menant des projets en parallèle. <br>
+        J’aime coder des projets efficaces et agréables à utiliser, en cherchant toujours à optimiser performances et ergonomie. <br>
         <br>
-        Sur ce portfolio, vous trouverez quelques-uns de mes projets, où j’ai pu mettre en pratique mes compétences en développement FullStack. <br>
-        Je suis toujours partant pour échanger, partager des idées ou relever de nouveaux défis, alors n’hésitez pas à me contacter ! 🚀
+        Sur ce portfolio, vous trouverez quelques-unes de mes réalisations, où j’ai mis en pratique mes compétences en développement FullStack. <br>
+        Que ce soit pour un site vitrine, une application web ou un besoin plus spécifique, je suis disponible pour échanger sur votre projet — n’hésitez pas à me contacter ! 🚀
       </p>
     </div>
     <div class="div-social-media">

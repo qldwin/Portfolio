@@ -1,0 +1,90 @@
+.container-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 94;
+    margin: 20px;
+}
+
+/* WRAPPER : gère la taille, la forme, l'ombre externe et l'anim d'ensemble */
+.liquidGlass-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    width: 52px;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25), 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 2.2);
+}
+
+/* COUCHE 1 : flou + distorsion optique du contenu derrière */
+.liquidGlass-effect {
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+    border-radius: inherit;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    filter: url(#glass-distortion);
+    overflow: hidden;
+}
+
+/* COUCHE 2 : teinte blanche, un peu plus de transparence */
+.liquidGlass-tint {
+    z-index: 1;
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: rgba(255, 255, 255, 0.52);
+}
+
+/* COUCHE 3 : reflets internes façon bord de verre */
+.liquidGlass-shine {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    border-radius: inherit;
+    overflow: hidden;
+    box-shadow:
+            inset 2px 2px 1px 0 rgba(255, 255, 255, 0.65),
+            inset -1px -1px 1px 1px rgba(255, 255, 255, 0.42);
+}
+
+/* COUCHE 4 : le contenu réel (icône), au-dessus de tout */
+.liquidGlass-text {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-bar:hover {
+    transform: translateY(-3px) scale(1.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 24px rgba(0, 0, 0, 0.18);
+}
+
+.dark-bar:hover .liquidGlass-tint {
+    background: rgba(255, 255, 255, 0.68);
+}
+
+.dark-bar:active {
+    transform: translateY(-1px) scale(0.97);
+}
+
+.footer-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .liquidGlass-wrapper {
+        transition: none;
+    }
+}

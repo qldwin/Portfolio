@@ -86,10 +86,6 @@ ul li a:hover {
     scroll-margin-block-start: 150px;
 }
 
-.section-body#projects{
-    height: 550vh;
-}
-
 .hamburger{
     display: none;
 }

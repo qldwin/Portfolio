@@ -6,12 +6,12 @@ export default {
             projects: [
                 {
                     title: "AirGap",
-                    languages: ["HTML/CSS", "JavaScript", "TailwindCSS", "NuxtJS", "DrizzleORM", "ProstgreSQL", "ChartJS", "Docker"],
+                    languages: ["HTML/CSS", "Typescript", "TailwindCSS", "NuxtJS", "DrizzleORM", "ProstgreSQL", "ShadCn", "Docker"],
                     type: "Personnel",
-                    picture: "/dashboard_finantia.png",
+                    picture: "/dashboard_airgap.png",
                     description:
                         "Le projet AirGap est une application web de gestion de budget et de patrimoine.\n " +
-                        "L’objectif de ce projet est de permettre aux utilisateurs de suivre leurs revenus, leurs dépenses ainsi que leurs investissements à travers un tableau de bord clair et interactif. \n" +
+                        "L’objectif de ce projet est de permettre aux utilisateurs de suivre leurs revenus et leurs dépenses, à travers un tableau de bord clair et interactif. \n" +
                         "J’ai conçu cette application afin de rendre la gestion financière plus simple, intuitive et accessible au quotidien.",
                     url:"https://github.com/qldwin/AirGap",
                     link:"https://airgap.aldwin-weber.fr/",
@@ -57,6 +57,7 @@ export default {
                         "J'ai refait mon portfolio pour repartir sur de bonnes bases et ainsi mettre les compétences que j'ai apprises à l'épreuve. \n" +
                         "En utilisant le framework VueJS grâce à ViteJS que j'ai appris à utiliser sur le tas, j'ai pu m'améliorer rapidement et efficacement.",
                     url:"https://github.com/qldwin/Portfolio",
+                    link: "https://aldwin-weber.fr/",
                 },
                 {
                     title: "Burgbad Projet",
