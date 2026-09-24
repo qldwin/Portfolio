@@ -67,6 +67,7 @@ export default {
     statusClass(status) {
       if (status === "Obtenu") return "status-done";
       if (status === "En cours") return "status-progress";
+      if (status === "Prévu") return "status-upcoming";
       return "status-upcoming";
     },
   },
