@@ -13,7 +13,7 @@ export default {
                         "Le projet AirGap est une application web de gestion de budget et de patrimoine.\n " +
                         "L’objectif de ce projet est de permettre aux utilisateurs de suivre leurs revenus et leurs dépenses, à travers un tableau de bord clair et interactif. \n" +
                         "J’ai conçu cette application afin de rendre la gestion financière plus simple, intuitive et accessible au quotidien.",
-                    url:"https://github.com/qldwin/AirGap",
+                    url:"https://github.com/AirGap-org",
                     link:"https://airgap.aldwin-weber.fr/",
                 },
                 {
